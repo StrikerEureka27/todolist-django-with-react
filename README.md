@@ -24,7 +24,7 @@ source venv/bin/activate
 Install Django pip dependency
 
 ```
-python -m pip install Django
+python -m pip install django
 ```
 
 Create a new django project
@@ -107,7 +107,7 @@ python manage.py migrate <app name>
 python manage.py createsuperuser <user_name>
 ```
 
-To enable admin panel models, we have to add model to admin.py file
+To enable admin panel models, we have to add model to admin.py file:
 
 ```
 admin.site.register(<app name>)
